@@ -2,7 +2,7 @@ name: Android CI
 
 on: 
   schedule:
-    - cron: '7 */12 */15 * *'
+    - cron: '7 12 */15 * *'
   workflow_dispatch:
 
 jobs:
