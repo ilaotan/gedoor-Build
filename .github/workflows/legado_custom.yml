@@ -10,7 +10,7 @@ on:
       git_tag:
         description: 'Your legado git tag'      
         required: true 
-        default: 'master'
+        default: '3.23.110211'
       app_channel:
         description: 'Your legado build channel(App)'      
         required: true 
@@ -18,7 +18,7 @@ on:
       app_custom:
         description: 'Your legado custom script'      
         required: true 
-        default: 'diy_10bits.sh'
+        default: 'diy_test.sh'
       app_name: 
         description: 'Legado app name'      
         required: true 
